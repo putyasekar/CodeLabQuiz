@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#305581"
+        tools:context=".TitleFragment">
+
+        <ImageView
+            android:id="@+id/trivia_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_65"
+            android:layout_marginBottom="@dimen/_65"
+            android:contentDescription="@string/trivia_icon"
+            android:src="@drawable/trivia_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="217dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="@dimen/_336"
+            android:background="#FEF200"
+            android:contentDescription="@string/play"
+            android:text="@string/play"
+            app:layout_constraintEnd_toEndOf="@+id/trivia_icon"
+            app:layout_constraintStart_toStartOf="@+id/trivia_icon"
+            app:layout_constraintTop_toTopOf="@+id/trivia_icon" />
+
+        <ImageView
+            android:id="@+id/hamburger_icon"
+            android:layout_width="39dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/menu_hamburger"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_menu" />
+
+        <ImageView
+            android:id="@+id/options_menu"
+            android:layout_width="38dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/menu_options"
+            app:layout_constraintBottom_toBottomOf="@+id/hamburger_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hamburger_icon"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/more" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

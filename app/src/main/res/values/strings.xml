@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Code Lab Quiz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="photo_profile">profile photo</string>
+    <string name="name">Name:</string>
+    <string name="putya">Putya Sekar Ayu</string>
+    <string name="address">Address:</string>
+    <string name="batam">Batam Kota, Indonesia</string>
+    <string name="email">Email:</string>
+    <string name="myemail">putyasekarayu@gmail.com</string>
+    <string name="birth">Born Day:</string>
+    <string name="birthday">30 April 2004</string>
+    <string name="trivia_icon">trivia</string>
+    <string name="play">play</string>
+    <string name="rules_text">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.\n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+    <string name="about_text">This is about ASIAN GEOGRAPHY, leggo test your knowledge about asian geography here.\n\nConsider modifying the questions and graphics to make this game your own!</string>
+    <string name="trivia_icon_rules">rules</string>
+    <string name="iconbout">icon about</string>
+    <string name="submit_button">submit</string>
+    <string name="question">question image</string>
+    <string name="try_again">try again</string>
+    <string name="win">win</string>
+    <string name="next">next match</string>
+    <string name="back">back</string>
+    <string name="menu_hamburger">menu</string>
+    <string name="menu_options">options menu</string>
+    <string name="preview">End Game Preview</string>
+    <string name="score">Total Score:</string>
+    <string name="like_icon">like</string>
+    <string name="total_likes">123</string>
+    <string name="likes">likes</string>
+    <string name="total_dislikes">30</string>
+    <string name="dislike">dislikes</string>
+    <string name="total_score">0</string>
+    <string name="ask">ask</string>
+    <string name="questions">Mt. Fuji is the highest point in what Asian country?</string>
+    <string name="question_icon">icon ask</string>
+    <string name="questionrg">rg ask</string>
+    <string name="answer_first">Japan</string>
+    <string name="answer_second">Indonesia</string>
+    <string name="answer_third">Bangladesh</string>
+    <string name="answer_fourth">Burma</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <string name="profile">Profile</string>
+    <string name="share">Share</string>
+    <string name="title_trivia_question">Trivia (%1$d/%2$d)</string>
+</resources>

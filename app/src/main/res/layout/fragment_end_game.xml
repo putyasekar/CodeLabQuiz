@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="preview"
+            type="com.diki.idn.codelabquiz.EndGameFragment" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".EndGameFragment">
+
+        <ImageView
+            android:id="@+id/more_options_menu"
+            android:layout_width="50dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="345dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/menu_options"
+            android:src="@drawable/more_two"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="128dp"
+            android:contentDescription="@string/preview"
+            android:text="@string/preview"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/like_icon"
+            android:layout_width="58dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="324dp"
+            android:contentDescription="@string/like_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.271"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/like" />
+
+        <TextView
+            android:id="@+id/likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/likes"
+            android:text="@string/likes"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/like_icon"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/total_likes"
+            app:layout_constraintTop_toBottomOf="@+id/like_icon" />
+
+        <TextView
+            android:id="@+id/total_likes"
+            android:layout_width="31dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/total_likes"
+            android:text="@string/total_likes"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/like_icon"
+            app:layout_constraintHorizontal_bias="0.626"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/like_icon" />
+
+        <ImageView
+            android:id="@+id/dislike_icon"
+            android:layout_width="62dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="96dp"
+            android:contentDescription="@string/dislike"
+            android:src="@drawable/dislike"
+            app:layout_constraintBottom_toBottomOf="@+id/like_icon"
+            app:layout_constraintStart_toEndOf="@+id/like_icon"
+            app:layout_constraintTop_toTopOf="@+id/like_icon"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/total_dislikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:contentDescription="@string/total_dislikes"
+            android:text="@string/total_dislikes"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/total_likes"
+            app:layout_constraintStart_toEndOf="@+id/total_likes"
+            app:layout_constraintTop_toTopOf="@+id/total_likes"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/dislikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="108dp"
+            android:contentDescription="@string/dislike"
+            android:text="@string/dislike"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/likes"
+            app:layout_constraintStart_toEndOf="@+id/likes"
+            app:layout_constraintTop_toTopOf="@+id/likes"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/total_score"
+            android:text="@string/total_score"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/total_score"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="@+id/total_score"
+            app:layout_constraintTop_toBottomOf="@+id/total_score" />
+
+        <TextView
+            android:id="@+id/total_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:contentDescription="@string/score"
+            android:text="@string/score"
+            android:textColor="#000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/preview"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="@+id/preview"
+            app:layout_constraintTop_toBottomOf="@+id/preview" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
