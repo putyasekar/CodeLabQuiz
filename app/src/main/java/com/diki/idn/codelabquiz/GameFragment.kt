@@ -22,11 +22,11 @@ class GameFragment : Fragment() {
     private val questions: MutableList<Questions> = mutableListOf(
         Questions(
             text = "Mt. Fuji is the highest point in what Asian country?",
-            answer = listOf("Bangladesh", "Indonesia", "China", "Japan")
+            answer = listOf("Japan", "Indonesia", "China", "Bangladesh")
         ),
         Questions(
             text = "What is western Asia's longest river?",
-            answer = listOf("Tigris", "Xi Jang", "Kurobes", "Euphrates")
+            answer = listOf("Yangzte", "apa ya td lupa maaf", "Kurobes", "Euphrates")
         ),
         Questions(
             text = "What tiny country, known to its inhabitants as Druk Yul (Land of the Thunder Dragon), is sandwiched between China and India?",
@@ -34,20 +34,20 @@ class GameFragment : Fragment() {
         ),
         Questions(
             text = "What mountain range runs along the northern border of India?",
-            answer = listOf("Urul", "Tatra", "Himalaya", "Everest")
+            answer = listOf("Himalaya", "Tatra", "Urul", "Everest")
         ),
         Questions(
             text = "Korea is separated from Japan by what strait?",
             answer = listOf(
-                "Cheju",
-                "Tsushima",
-                "Gibraltar",
-                "Bungo"
+                "A",
+                "B",
+                "C",
+                "D"
             )
         ),
         Questions(
             text = "Iran is slightly larger than what U.S. state?",
-            answer = listOf("Rhode", "Montana", "Texas", "Alaska")
+            answer = listOf("Alaska", "Montana", "Texas", "Rhode")
         ),
         Questions(
             text = "What Chinese city is situated at the mouth of the Chang Jiang (Yangtze) River?",

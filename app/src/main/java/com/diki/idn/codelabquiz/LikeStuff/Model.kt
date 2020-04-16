@@ -1,4 +1,4 @@
-package com.diki.idn.codelabquiz
+package com.diki.idn.codelabquiz.LikeStuff
 
 import androidx.databinding.ObservableInt
 

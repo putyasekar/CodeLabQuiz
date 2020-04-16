@@ -1,16 +1,22 @@
-package com.diki.idn.codelabquiz
+package com.diki.idn.codelabquiz.LikeStuff
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
 import androidx.databinding.BindingAdapter
+import com.diki.idn.codelabquiz.R
 
 object BindingAdapter {
     @BindingAdapter("app:popularityIcon")
     @JvmStatic
     fun popularityIcon(imageView: ImageView, popularity: MainObservableViewModel.LikeNumbers) {
-        imageView.setImageDrawable(getDrawableLikePopularity(popularity, imageView.context))
+        imageView.setImageDrawable(
+            getDrawableLikePopularity(
+                popularity,
+                imageView.context
+            )
+        )
 
     }
 
